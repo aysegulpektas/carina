@@ -1,0 +1,145 @@
+.proje-image-container {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.proje-image-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.proje-image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/resim2.png');
+    background-size: cover;
+    filter: blur(1px);
+    z-index: 0;
+}
+
+.projeImageText {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Ortala */
+    color: white;
+    font-size: 33px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.projeImageText2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Ortala */
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.anatext {
+    border: 1px white solid;
+    width: 530px;
+    height: 520px;
+    padding-top: 5px;
+    padding-left: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.projetext1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.projetext2 {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 20;
+    display: flex;
+    align-items: center;
+}
+
+.icontext {
+    font-size: 18px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.projeDiv1 {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+
+.projeDiv2 {
+    position: absolute;
+    top: 85%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.text1 {
+    font-size: 17px;
+}
+
+.baslik-container {
+    width: 100%;
+    max-width: 710px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.baslik1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.owl-carousel .item img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.owl-carousel .item {
+    width: 350px;
+    height: 450px;
+    display: inline-block;
+    margin: 5px;
+}

@@ -1,0 +1,602 @@
+body {
+    background-color: rgb(235, 231, 231);
+}
+
+.nav-link {
+    color: black;
+    font-size: 21px;
+}
+
+.mainText-container {
+    background-color: white;
+    padding: 30px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.container {
+    /*display: flex;
+    flex-direction: row;
+    align-items: center;*/
+}
+
+.text3div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+
+.mainText3 {
+    flex: 1;
+    padding: 10px;
+    width: 50%;
+    color: rgb(105, 102, 102);
+
+}
+
+.mainImage2 {
+    padding: 10px;
+    width: 45%;
+    background-color: rgb(white, 0, 0);
+
+}
+
+.mainText {
+    font-size: 20px;
+    color: rgb(69, 188, 199);
+}
+
+.mainText2 {
+    font-size: 25px;
+    font-weight: 550;
+    color: black;
+    width: 50%;
+}
+
+.imgobject2 {
+    width: 100%;
+}
+
+.carousel-text {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 38%;
+    left: 14%;
+}
+
+.carousel-text2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(69, 188, 199);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 44%;
+    left: 14%;
+}
+
+.carousel-text3 {
+    font-size: 12px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 55%;
+    left: 14%;
+}
+
+.btn.btn-outline-success {
+    background-color: rgb(69, 188, 199);
+    color: black;
+    font-weight: bold;
+    border-radius: 0px;
+    border: 2px solid black;
+}
+
+
+
+.ftco-footer-social a {
+    color: #000;
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.ftco-animate {
+    list-style: none;
+    display: block;
+    border-radius: 50%;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+
+}
+
+
+.main-image-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.main-image-container img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.main-image-icon-div {
+    z-index: 2;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 5 5 10px rgba(255, 255, 255, 0.5);
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    height: max-content;
+}
+
+.main-image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/resim2.png');
+    background-size: cover;
+    filter: blur(4px);
+    z-index: 0;
+}
+
+.my-button {
+    background-color: rgb(117, 225, 234);
+    color: black;
+    border: 2% black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.my-button:hover {
+    background-color: white;
+}
+
+.mainImageText {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    color: white;
+    font-size: 24px;
+    font-weight: 1000px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.mainImageText::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: rgb(216, 196, 16);
+    position: absolute;
+    bottom: -1px;
+    left: calc(15% - 25px);
+}
+
+.mainImageText2 {
+    position: absolute;
+    top: 27%;
+    left: 15%;
+    color: white;
+    font-size: 10px;
+    font-weight: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-image {
+    bottom: 300px;
+    left: 40%;
+}
+
+
+.mainImageText3 {
+    color: white;
+}
+
+.main-image2 {
+    bottom: 300px;
+    left: 55%;
+
+}
+
+.mainImageText4 {
+    color: white;
+}
+
+.main-image3 {
+
+    bottom: 300px;
+    left: 70%;
+
+}
+
+.mainImageText5 {
+    color: white;
+}
+
+.main-image4 {
+
+    bottom: 80px;
+    left: 30%;
+
+}
+
+.mainImageText6 {
+    color: white;
+}
+
+.main-image5 {
+
+    bottom: 80px;
+    left: 45%;
+
+}
+
+.mainImageText7 {
+    color: white;
+}
+
+.main-image6 {
+    bottom: 80px;
+    left: 60%;
+}
+
+.main-image6 img {
+    height: 60px;
+    object-fit: scale-down;
+}
+
+.mainImageText8 {
+    color: white;
+}
+
+.main-image-container2 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.main-image-container2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-image-container2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/resim3.jpg');
+    background-size: cover;
+    filter: blur(6px);
+    z-index: 0;
+}
+
+.mainImageText9 {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    color: black;
+    font-size: 20px;
+    font-weight: 900px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer-menu-line {
+    height: 2px;
+    width: 60px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid gray;
+    box-shadow: 1px 1px white;
+}
+
+.my-button2 {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    top: 45%;
+    left: 1100px;
+    box-shadow: 1px 1px 4px black;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.my-button2:hover {
+    border: 2% black;
+}
+
+.proje-image-container {
+    text-align: center;
+}
+
+.proje-image-text {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.proje-image-text::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: rgb(69, 188, 199);
+    position: absolute;
+    bottom: -5px;
+    left: calc(50% - 25px);
+}
+
+.proje-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.proje-image img {
+    width: 340px;
+    height: 490px;
+}
+
+.proje-image1 img {
+    width: 525px;
+    height: 375px;
+}
+
+.referans-text {
+    text-align: left;
+    font-size: 30px;
+    left: 320px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.referans-text::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+    background-color: rgb(69, 188, 199);
+    position: absolute;
+    bottom: -5px;
+    left: calc(1.5% - 25px);
+}
+
+
+.referans-text2 {
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.referans-text2 strong {
+    font-weight: bold;
+    display: block;
+}
+
+.referans-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+
+}
+
+.referans-image img {
+    width: 203px;
+    height: 203px;
+}
+
+.referans-button {
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(117, 225, 234);
+    border-radius: 5px;
+
+}
+
+.referans-container {
+    text-align: center;
+    background-color: rgb(245, 244, 244);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.blog-text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.blog-text strong {
+    color: rgb(17, 17, 237);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.blog-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.blog-image img{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.blog-text2{
+    margin-left: 300px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+}
+
+.blog-text2::after{
+    content: "";
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: rgb(170, 170, 170);
+    position: absolute;
+    bottom: -5px;
+    left: calc(1.8% - 25px);
+}
+
+.blog-text3{
+    margin-left: 690px;
+    margin-top: -210px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+}
+
+.blog-text3::after{
+    content: "";
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: rgb(170, 170, 170);
+    position: absolute;
+    bottom: -5px;
+    left: calc(2.4% - 25px);
+}
+
+.blog-text4{
+    margin-left: 1080px;
+    margin-top: -210px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+}
+
+.blog-text4::after{
+    content: "";
+    display: block;
+    width: 67px;
+    height: 2px;
+    background-color: rgb(170, 170, 170);
+    position: absolute;
+    bottom: -5px;
+    left: calc(3.7% - 25px);
+}
+
+.blog-textt strong{
+    color: rgb(17, 17, 237);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.blog-text22{
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+}
+
+.blog-text22 strong{
+    font-size: 12px;
+    font-weight: normal;
+}
+.blog-text2-buton{
+    margin-left: 300px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+    color: black;
+}
+
+.blog-text33{
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+    margin-left: 690px;
+}
+.blog-text33 strong{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.blog-text3-buton{
+    margin-left: 690px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.blog-text44{
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+    margin-left: 1080px;
+}
+.blog-text44 strong{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.blog-text4-buton{
+    margin-left: 1080px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: black;
+}
+
